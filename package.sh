@@ -6,3 +6,4 @@ stow
 obsidian
 spotify
 discord
+github
