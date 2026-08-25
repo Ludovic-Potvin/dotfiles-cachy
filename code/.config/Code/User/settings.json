@@ -1,0 +1,85 @@
+{
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "simplyblame.dateFormat": "YYYY-MM-DD",
+    "simplyblame.authorStyle": "first",
+    "simplyblame.keepBlamesOpen": true,
+    "simplyblame.heatMapRGBColorsDarkList": {
+        "Lava: r155,g0,b0,c3": false,
+        "Dark: r44,g44,b44,c2": true
+    },
+    "vscode-neovim.ctrlKeysForNormalMode": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m",
+        "o",
+        "r",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y",
+        "z",
+        "/",
+        "]",
+        "right",
+        "left",
+        "up",
+        "down",
+        "backspace",
+        "delete"
+    ],
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "/usr/bin/zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.fontFamily": "'Hack Nerd Font', 'monospace', monospace",
+    "editor.rulers": [
+        80
+    ],
+    "git.blame.editorDecoration.enabled": false,
+    "git.openRepositoryInParentFolders": "never",
+    "claudeCode.preferredLocation": "panel",
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": false,
+    "chat.viewSessions.orientation": "stacked",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "explorer.confirmDragAndDrop": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Alt Catppuccin Macchiato",
+}
