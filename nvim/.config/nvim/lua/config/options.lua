@@ -3,3 +3,4 @@
 -- Add any additional options here
 vim.o.exrc = true
 vim.o.secure = true
+vim.opt.clipboard = "unnamedplus"
